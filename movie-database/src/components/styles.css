@@ -1,0 +1,66 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+  }
+  
+  /* App Header */
+  header {
+    text-align: center;
+    background-color: #6200ea;
+    color: white;
+    padding: 20px 0;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 2rem;
+  }
+  
+  /* Movie List Container */
+  .movie-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  /* Movie Card */
+  .movie-card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.2s, box-shadow 0.2s;
+    width: 250px;
+  }
+  
+  .movie-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+  }
+  
+  .movie-card img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .movie-card h3 {
+    font-size: 1.2rem;
+    margin: 15px;
+    color: #6200ea;
+  }
+  
+  .movie-card p {
+    margin: 0 15px 15px;
+    font-size: 0.9rem;
+    color: #555;
+  }
+  

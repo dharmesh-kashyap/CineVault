@@ -1,0 +1,6 @@
+### Test Movie API
+
+GET https://dummyapi.online/api/movies
+Accept: application/json
+
+###
