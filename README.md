@@ -22,7 +22,7 @@ Add your demo screenshot here:
 ## Installation & Setup
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/movie-database.git
+   git clone https://github.com/dharmesh-kashyap/CineVault.git
    cd movie-database
    ```
 2. Install Dependencies
@@ -47,7 +47,7 @@ Add your demo screenshot here:
 The API returns movie data in the following JSON format:
 
  ```json
-     {
+ {
   "id": 1,
   "movie": "The Shawshank Redemption",
   "rating": 9.2,
